@@ -9,7 +9,7 @@ If you are new to reinforcement learning, and decision making under uncertatiny 
 
 https://www.udacity.com/course/intro-to-artificial-intelligence--cs271
 
-## Deep Leraning
+## Deep Learning
 
 Let's get started by watching some videos that explain deep learning at a high level (for best results watch them in order):
 
