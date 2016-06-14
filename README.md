@@ -7,7 +7,11 @@ If you are new to reinforcement learning, and decision making under uncertatiny 
 
 ## Reinforcement Learning
 
+Watch parts 1, 2, 9, and 10 from the Udacity course below:
+
 https://www.udacity.com/course/intro-to-artificial-intelligence--cs271
+
+The course covers many topics, but the ones we care about, are the funcdamentals of AI, probability, MDPs, and Reinforcement Learning.
 
 ## Deep Learning
 
@@ -23,8 +27,7 @@ Let's get started by watching some videos that explain deep learning at a high l
 
 https://www.udacity.com/course/intro-to-artificial-intelligence--cs271
 
-## POMDPs.jl
+## Deep Reinforcement Learning
 
-## Julia 
-
-http://samuelcolvin.github.io/JuliaByExample/
+Watch the John Schulman lecture:
+https://www.youtube.com/watch?v=aUrX-rP_ss4
