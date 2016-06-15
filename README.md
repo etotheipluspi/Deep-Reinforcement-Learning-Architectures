@@ -1,6 +1,7 @@
 # Deep-Reinforcement-Learning-Architectures
 Repo containing to-dos and instructions for DRL architectures project. 
 
+
 # Getting Started
 
 If you are new to reinforcement learning, and decision making under uncertatiny in general, let's first get you up to speed on the fundamentals. 
@@ -29,8 +30,25 @@ https://www.udacity.com/course/intro-to-artificial-intelligence--cs271
 
 ## Deep Reinforcement Learning
 
-Watch the John Schulman lecture:
+Read Andrej Karpathy's [blog](http://karpathy.github.io/2016/05/31/rl/) on Policy Gradient method.
+
+
+Watch the John Schulman lecture (advanced):
 https://www.youtube.com/watch?v=aUrX-rP_ss4
+
+
+# Setup
+
+## Chainer
+
+Install [chainer](https://github.com/pfnet/chainer) by running: 
+
+```
+pip install chainer 
+```
+
+Try the chainer [tutorial](http://docs.chainer.org/en/stable/tutorial/basic.html)
+
 
 ## Tensor Flow
 
@@ -49,3 +67,9 @@ To deactivate the environemnt, run: `source deactivate`, to activate it again ru
 
 Once tensorflow is installed, follow the MNIST tutorial [here](https://www.tensorflow.org/versions/r0.9/tutorials/mnist/beginners/index.html)
 
+
+## Chimp
+
+Check out the repo [here](https://github.com/sisl/Chimp/graphs/traffic)
+
+Go through the examples, and try trianing a cart-pole model.
