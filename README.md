@@ -78,6 +78,6 @@ Go through the examples, and try trianing a cart-pole model.
 
 After you're comfortable with the Chimp interface, try running a few experiments:
 
-* 2-Layer neural netowrk controllers for cart-pole problem. Vary the number of neurons in each layer, and compare the convergance rates, and quality of solution
+* 2-Layer neural network controllers for cart-pole problem. Vary the number of neurons in each layer, and compare the convergence rates and quality of solution
 * MLP comparison. Try making the networks deeper while keeping their width the same and compare results.
 * Try adding batch normalizaiton for a few of the above architectures and compare the results.
