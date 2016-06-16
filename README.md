@@ -12,7 +12,7 @@ Watch parts 1, 2, 9, and 10 from the Udacity course below:
 
 https://www.udacity.com/course/intro-to-artificial-intelligence--cs271
 
-The course covers many topics, but the ones we care about, are the funcdamentals of AI, probability, MDPs, and Reinforcement Learning.
+The course covers many topics, but the ones we care about are the funcdamentals of AI, probability, MDPs, and Reinforcement Learning.
 
 ## Deep Learning
 
@@ -20,7 +20,7 @@ Let's get started by watching some videos that explain deep learning at a high l
 
 [TedX talk](https://www.ted.com/talks/fei_fei_li_how_we_re_teaching_computers_to_understand_pictures?language=en) by Fei-Fei Li on describing images with neural networks. 
 
-[Video Exaplnations](https://www.youtube.com/channel/UC9OeZkIwhzfv-_Cb7fCikLQ/videos) of Deep Learning. Watch episodes 2-20.
+[Video Explanations](https://www.youtube.com/channel/UC9OeZkIwhzfv-_Cb7fCikLQ/videos) of Deep Learning. Watch episodes 2-20.
 
 [Talk](https://www.youtube.com/watch?v=l2dVjADTEDU&feature=youtu.be) by Geoff Hinton on how neural networks really work. 
 
@@ -65,7 +65,7 @@ See instructions [here](https://www.tensorflow.org/versions/r0.9/get_started/os_
 
 To deactivate the environemnt, run: `source deactivate`, to activate it again run: `source activate tensorflow`.
 
-Once tensorflow is installed, follow the MNIST tutorial [here](https://www.tensorflow.org/versions/r0.9/tutorials/mnist/beginners/index.html)
+Once tensorflow is installed, follow the MNIST tutorials [here](https://www.tensorflow.org/versions/r0.9/tutorials/mnist/beginners/index.html)
 
 
 ## Chimp
@@ -74,10 +74,23 @@ Check out the repo [here](https://github.com/sisl/Chimp/graphs/traffic)
 
 Go through the examples, and try trianing a cart-pole model.
 
+## OpenAI Gym
+
+The OpenAI Gym provides a variety of simulation environemnts that we can interact with to run deep reinforcement learning experiments. Let's first install the dependencies we need. On OS X run:
+
+```
+brew install cmake boost boost-python sdl2 swig
+```
+To install OpenAI Gym and all of its environemnts run:
+
+```
+pip install gym[all]
+```
+
 # Things to Try
 
 After you're comfortable with the Chimp interface, try running a few experiments:
 
-* 2-Layer neural netowrk controllers for cart-pole problem. Vary the number of neurons in each layer, and compare the convergance rates, and quality of solution
+* 2-Layer neural network controllers for cart-pole problem. Vary the number of neurons in each layer, and compare the convergence rates and quality of solution
 * MLP comparison. Try making the networks deeper while keeping their width the same and compare results.
 * Try adding batch normalizaiton for a few of the above architectures and compare the results.
