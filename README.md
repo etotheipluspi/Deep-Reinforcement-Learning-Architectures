@@ -74,6 +74,19 @@ Check out the repo [here](https://github.com/sisl/Chimp/graphs/traffic)
 
 Go through the examples, and try trianing a cart-pole model.
 
+## OpenAI Gym
+
+The OpenAI Gym provides a variety of simulation environemnts that we can interact with to run deep reinforcement learning experiments. Let's first install the dependencies we need. On OS X run:
+
+```
+brew install cmake boost boost-python sdl2 swig
+```
+To install OpenAI Gym and all of its environemnts run:
+
+```
+pip install gym[all]
+```
+
 # Things to Try
 
 After you're comfortable with the Chimp interface, try running a few experiments:
