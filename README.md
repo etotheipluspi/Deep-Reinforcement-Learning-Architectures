@@ -50,24 +50,6 @@ pip install chainer
 Try the chainer [tutorial](http://docs.chainer.org/en/stable/tutorial/basic.html)
 
 
-## Tensor Flow
-
-Installation on a Mac:
-
-See instructions [here](https://www.tensorflow.org/versions/r0.9/get_started/os_setup.html#anaconda-installation). In my expereince, using conda environments is the easiest way to go.
-
-* Install [anacodna](https://www.continuum.io/downloads)
-* Run: `conda create -n tensorflow python=2.7`
-* Run: `source activate tensorflow`
-* Run: `export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/mac/tensorflow-0.9.0rc0-py2-none-any.whl`
-* Run: `sudo pip install --upgrade $TF_BINARY_URL`
-* Run: `conda install ipython`
-
-To deactivate the environemnt, run: `source deactivate`, to activate it again run: `source activate tensorflow`.
-
-Once tensorflow is installed, follow the MNIST tutorials [here](https://www.tensorflow.org/versions/r0.9/tutorials/mnist/beginners/index.html)
-
-
 ## Chimp
 
 Check out the repo [here](https://github.com/sisl/Chimp/graphs/traffic)
@@ -86,6 +68,54 @@ To install OpenAI Gym and all of its environemnts run:
 ```
 pip install gym[all]
 ```
+
+## rllab
+
+Let's instlall [rllab](https://github.com/rllab/rllab). The framework has a number of algorithms for deep reinforcement learning implemented, and interfaces with openAI Gym. First clone the github repository somwehre where its easy to find:
+```
+git clone https://github.com/rllab/rllab
+cd rllab
+pwd
+```
+Copy the output form pwd
+
+Add the following to your .bash_profile file:
+```
+export PYTHONPATH=path_to_rllab:$PYTHONPATH
+```
+
+Where `path_to_rllab` is the output of pwd. 
+
+Next run:
+```
+./scripts/setup_osx.sh
+```
+
+This will create a conda environemnt that contains all the installatioins that you need. To activate the environemnt run:
+```
+source activate rllab
+```
+You can now use rllab from python!
+
+
+
+
+## Tensor Flow
+
+Installation on a Mac:
+
+See instructions [here](https://www.tensorflow.org/versions/r0.9/get_started/os_setup.html#anaconda-installation). In my expereince, using conda environments is the easiest way to go.
+
+* Install [anacodna](https://www.continuum.io/downloads)
+* Run: `conda create -n tensorflow python=2.7`
+* Run: `source activate tensorflow`
+* Run: `export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/mac/tensorflow-0.9.0rc0-py2-none-any.whl`
+* Run: `sudo pip install --upgrade $TF_BINARY_URL`
+* Run: `conda install ipython`
+
+To deactivate the environemnt, run: `source deactivate`, to activate it again run: `source activate tensorflow`.
+
+Once tensorflow is installed, follow the MNIST tutorials [here](https://www.tensorflow.org/versions/r0.9/tutorials/mnist/beginners/index.html)
 
 # Things to Try
 
