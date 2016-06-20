@@ -52,7 +52,7 @@ Try the chainer [tutorial](http://docs.chainer.org/en/stable/tutorial/basic.html
 
 ## Chimp
 
-Check out the repo [here](https://github.com/sisl/Chimp/graphs/traffic)
+Check out the repo [here](https://github.com/sisl/Chimp)
 
 Go through the examples, and try trianing a cart-pole model.
 
