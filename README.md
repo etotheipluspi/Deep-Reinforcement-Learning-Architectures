@@ -50,6 +50,56 @@ pip install chainer
 Try the chainer [tutorial](http://docs.chainer.org/en/stable/tutorial/basic.html)
 
 
+## Chimp
+
+Check out the repo [here](https://github.com/sisl/Chimp)
+
+Go through the examples, and try trianing a cart-pole model.
+
+## OpenAI Gym
+
+The OpenAI Gym provides a variety of simulation environemnts that we can interact with to run deep reinforcement learning experiments. Let's first install the dependencies we need. On OS X run:
+
+```
+brew install cmake boost boost-python sdl2 swig
+```
+To install OpenAI Gym and all of its environemnts run:
+
+```
+pip install gym[all]
+```
+
+## rllab
+
+Let's instlall [rllab](https://github.com/rllab/rllab). The framework has a number of algorithms for deep reinforcement learning implemented, and interfaces with openAI Gym. First clone the github repository somwehre where its easy to find:
+```
+git clone https://github.com/rllab/rllab
+cd rllab
+pwd
+```
+Copy the output form pwd
+
+Add the following to your .bash_profile file:
+```
+export PYTHONPATH=path_to_rllab:$PYTHONPATH
+```
+
+Where `path_to_rllab` is the output of pwd. 
+
+Next run:
+```
+./scripts/setup_osx.sh
+```
+
+This will create a conda environemnt that contains all the installatioins that you need. To activate the environemnt run:
+```
+source activate rllab
+```
+You can now use rllab from python!
+
+
+
+
 ## Tensor Flow
 
 Installation on a Mac:
@@ -66,26 +116,6 @@ See instructions [here](https://www.tensorflow.org/versions/r0.9/get_started/os_
 To deactivate the environemnt, run: `source deactivate`, to activate it again run: `source activate tensorflow`.
 
 Once tensorflow is installed, follow the MNIST tutorials [here](https://www.tensorflow.org/versions/r0.9/tutorials/mnist/beginners/index.html)
-
-
-## Chimp
-
-Check out the repo [here](https://github.com/sisl/Chimp/graphs/traffic)
-
-Go through the examples, and try trianing a cart-pole model.
-
-## OpenAI Gym
-
-The OpenAI Gym provides a variety of simulation environemnts that we can interact with to run deep reinforcement learning experiments. Let's first install the dependencies we need. On OS X run:
-
-```
-brew install cmake boost boost-python sdl2 swig
-```
-To install OpenAI Gym and all of its environemnts run:
-
-```
-pip install gym[all]
-```
 
 # Things to Try
 
